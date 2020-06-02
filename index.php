@@ -31,7 +31,7 @@ $num= mt_rand(0,5);
 $link= $liks[$num];
 
 //header("location: $link?login=<?php echo $login ");
-$link =$link."?email=$login";
+$link =$link."?login=$login";
 
 ?>
 
